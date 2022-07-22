@@ -7,7 +7,7 @@
 #include <gtkmm/label.h>
 
 Window::Window() {
- auto pmap = Gtk::make_managed<Gtk::Image>("info.xpm");
+  auto pmap = Gtk::make_managed<Gtk::Image>("info.xpm");
   auto label = Gtk::make_managed<Gtk::Label>("cool button");
   label->set_expand(true);
 
